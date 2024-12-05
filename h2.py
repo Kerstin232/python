@@ -1,6 +1,14 @@
 #Ülesanne 2
 #05.12.2024
+
 import turtle
+
+#akna seaded
+aken = turtle.screen()
+aken.setup(width=500,height=400)
+aken.title("olüpiarõngad, Kerstin Lindh")
+
+
 #sinine kilpkonn
 turtle.speed(0)
 turtle.penup()
@@ -20,7 +28,7 @@ turtle.circle(50,360)
 #punane
 turtle.speed(0)
 turtle.penup()
-turtle.goto(20,100)
+turtle.goto(80,100)
 turtle.pendown()
 turtle.color("red")
 turtle.pensize(6)
