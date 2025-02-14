@@ -1,3 +1,9 @@
+import json
+
+klass12opilased = []
+kokku12klass = 0
+huvialad = []
+
 
 with open('haridustulemused.json', 'r', encoding='utf-8') as file:
     students = json.load(file)
