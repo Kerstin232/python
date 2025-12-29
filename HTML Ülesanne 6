@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html>
+        <h1>Õpilase Registreerimisvorm</h1>
+        <h2>Isikuandmed</h2>
+        <form action="/submit_page" method="get">
+            <label for="Name">Eesnimi:</label>
+            <input type="text" placeholder="nt Mario" name="firstname"><br>
+            <label for="Name">Perekonnanimi:</label>
+            <input type="text" placeholder="nt Metshein" name="lastname"><br>
+            <label for="date">Sünnikuupaev:</label>
+            <input type="date" name="birthdate"><br>
+            <label for="gender">Sugu:</label>
+            <input type="radio" name="gender" value="male">Mees
+            <input type="radio" name="gender" value="female">Naine
+            <input type="radio" name="gender" value="other">muu<br>
+            <h2>Kontakt</h2>  
+            <label for="email">E-post:</label>
+            <input type="email" placeholder="nimi@kool.ee" name="email"><br>
+            <label for="phone">Telefon:</label>
+            <input type="tel" placeholder="+371 123456" name="phone"><br>
+            <label for="address">Aadress:</label>
+            <input type="text" placeholder="Tänav, maja, korter" name="address"><br>
+            <label for="city">Linn:</label>
+            <input type="text" placeholder="nt Tallinn" name="city"><br>
+            <label for="postalcode">Postiindeks:</label>
+            <input type="text" placeholder="nt 12345" name="postalcode"><br>
+            <label for="country">Riik:</label>
+            <input type="text" placeholder="nt Eesti" name="country"><br>
+        <h2>Muu info</h2>
+            <label for="HOBBIES">Huvialad:</label> <br>
+            <input type="checkbox" name="Drawing">Joonistamine<br>
+            <input type="checkbox" name="Singing">Laulmine<br>
+            <input type="checkbox" name="Dancing">Tantsimine<br>
+            <input type="checkbox" name="Cooking">Kokkamine<br>
+            <input type="checkbox" name="other">Muu: <input type="text" placeholder="täpsusta (kuni 30 märki)" maxlength="30"> <br>
+            <br>
+            <label for="website">Isiklik veebileht:</label>
+            <input type="url" placeholder="nt https://www.minuleht.ee" name="website"><br>
+            <label for="color">Eelistatud teemavärv:</label>
+            <input type="color" name="favcolor" value="#000000"><br>
+            <br>
+            <label for="documents">Dokumendid (PDF voi Pilt):</label>
+            <input type="file" name="documents" multiple><br>
+
+        <h2>Nõustumine</h2>
+                <input type="checkbox" name="consent">Kinnitan, et esitatud andmed on õiged ja luban nende töödlemist vastavalt kooli tingimustele!<br>
+    <br>
+    <br>
+        <button type="submit">Saada</button> <button type="reset">Tühjenda</button>     
+
+
+
+        </form>
+        
+    </html>
