@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+    <html>
+      </head>
+      <body>
+      
+      <h1>Batman vs Spider-Man</h1>
+      
+      <table>
+          <caption>Batman vs Spiderman</caption>
+      
+      <tr>
+      <th></th>
+      <th>
+      <img src="batman.jpg" alt="Batman" width="100" height="100">
+      </th>
+      <th>
+      <img src="spiderman.jpg" alt="Spider-Man" width="100" height="100">
+      </th>
+      </tr>
+      
+      <tr>
+      <td>Öösel hiilimine</td>
+      <td>10</td>
+      <td>7</td>
+      </tr>
+      <tr>
+      <td>Pilvelõhkuja-parkour</td>
+      <td>6</td>
+          <td>10</td>
+      </tr>
+      <tr>
+      <td>Vaikne sisenemine</td>
+      <td>9</td>
+      <td>6</td>
+      </tr>
+      <tr>
+      <td>Kiire reageerimine</td>
+      <td>7</td>
+      <td>9</td>
+      </tr>
+      <tr>
+      <td>Vidinad vs võrgulõur</td>
+      <td>9</td>
+      <td>8</td>
+      </tr>
+      <tr>
+       <td>Naabri kassi päästmine</td>
+      <td>8</td>
+      <td>10</td>
+      </tr>
+      <tr>
+      <td>Kokku</td>
+      <td>49</td>
+      <td>50</td>
+      </tr>
+      </table>
+      <p><strong>Võitja:</strong> Spider-Man
+          (50 vs 49)</p>
+      </body>
+</html>
