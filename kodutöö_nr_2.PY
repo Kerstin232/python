@@ -1,14 +1,14 @@
 ## 	Iseseisev töö nr2 /
 
 algnesaldo = 100
-valik = input("deposiit või väljavõte? ")
+vali = input("deposiit või väljavõte? ")
 
-if valik == "deposiit":
+if vali == "deposiit":
     summa = int(input("Sisesta summa: "))
     algnesaldo += summa
     print("Saldo", algnesaldo)
 
-elif valik == "väljavõte":
+elif vali == "väljavõte":
     summa = int(input("Sisesta summa: "))
     algnesaldo -= summa
     print("Saldo", algnesaldo)
